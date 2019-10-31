@@ -1,0 +1,145 @@
+	.body {
+  overflow: hidden;
+  /* Note: This gradient may render differently in browsers that don't support the unprefixed gradient syntax */
+
+/* IE10 Consumer Preview */ 
+background-image: -ms-linear-gradient(top left, #26C5FF 0%, #4A92EF 100%);
+
+/* Mozilla Firefox */ 
+background-image: -moz-linear-gradient(top left, #26C5FF 0%, #4A92EF 100%);
+
+/* Opera */ 
+background-image: -o-linear-gradient(top left, #26C5FF 0%, #4A92EF 100%);
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0, #26C5FF), color-stop(1, #4A92EF));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-linear-gradient(top left, #26C5FF 0%, #4A92EF 100%);
+
+/* W3C Markup, IE10 Release Preview */ 
+background-image: linear-gradient(to bottom right, #6de2dd 0%, #ffffff 100%);
+background-size: cover;
+  position: fixed;
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+  font: normal 14px/1.618em "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background-color: none;
+}
+.col-pack{
+	background:#ffffff;
+	padding: 0px !important;
+	margin: auto;
+	margin-top: 10%;
+	border-radius: 20px;
+-webkit-box-shadow: 10px 10px 19px -13px rgba(0,0,0,0.37);
+-moz-box-shadow: 10px 10px 19px -13px rgba(0,0,0,0.37);
+box-shadow: 10px 10px 19px -13px rgba(0,0,0,0.37);
+}
+.col-pack-one h3{
+		font-family: 'Righteous', cursive;
+		color: #fff;
+		text-align: center;
+		margin-top: 10%;
+}
+.col-pack-one{
+	background-image: url('image/3.png');
+	height: 400px;
+	background-size: cover;
+	border-radius: 20px 0px 0px 20px;
+
+}
+.col-pack-two h3{
+	/*font-family: 'Lexend Deca', sans-serif;*/
+	font-family: 'Righteous', cursive;
+	text-align: center;
+	margin-top: 20%;
+}
+.logo{
+	width: 116px;
+    margin-left: 32%;
+    margin-top: 27%;
+}
+.logo-sign{
+	width: 85px;
+}
+.in-1{
+	padding: 0.355rem .75rem !important;
+}
+.col-pack-two input[type=text]:focus{box-shadow: 0 0 0pt 0pt yellow}
+
+.btn-login{
+	background: linear-gradient(90deg, rgb(38, 143, 217) 0%, rgb(66, 163, 215) 35%, rgba(0,212,255,1) 100%);
+	border: 0px;
+	color: #fff;
+	font-size:17px;
+	border-radius: 20px;
+	padding: 0px 20px 0px 20px;
+	margin-left: 42%;
+	cursor: pointer;
+}
+.btn-login:hover{
+	background: linear-gradient(90deg, rgb(38, 143, 217) 0%, rgb(66, 163, 215) 35%, rgba(0,212,255,1) 100%);
+	border: 0px;
+	color: #fff;
+	font-size:17px;
+	border-radius: 20px;
+	padding: 0px 20px 0px 20px;
+	margin-left: 42%;
+	cursor: pointer;
+	box-shadow: 10px 10px 19px -13px rgba(0,0,0,0.37);
+}
+.logo-com{
+	width: 175px;
+	margin-top: 2%;
+}
+.like{
+	margin-top: 8px;
+	width: 50px;
+	cursor: pointer;
+	transition: 0.5s;
+}
+.like:hover{
+border-radius: 50%;
+-webkit-box-shadow: 10px 10px 19px -13px rgba(0,0,0,0.37);
+-moz-box-shadow: 10px 10px 19px -13px rgba(0,0,0,0.37);
+box-shadow: 10px 10px 19px -13px rgba(0,0,0,0.37);
+}
+.gb-like1{
+text-align: right;
+}
+.gb-lke2{
+	text-align: left;
+}
+.chooice{
+	width: 65px;
+}
+.no-chooice{
+	width: 40px;
+}
+.image-pp{
+	border-radius: 50%;
+	width: 140px;
+	height: 140px;
+	border: 4px solid #72e3de;
+}
+ .choice-btn{
+  background: linear-gradient(to right, rgba(82,239,250,1) 0%, rgba(93,169,240,0.94) 100%);
+  border-radius: 100px;
+  border: 0px;
+  font-size: 15px;
+  box-shadow: 0px -29px 6px rgba(0, 0, 0, 0), 0px 1px 6px rgba(0, 0, 0, 0.23);
+  cursor: pointer;
+  color: #fff;
+  padding: 5px 20px 5px 20px;
+  transition: 0.5s;
+}
+.choice-btn:hover{
+    box-shadow: 0px -3px 6px rgba(0, 0, 0, 0), 0px 2px 6px rgba(0, 0, 0, 0.23);
+}
+.choice-btn img{
+  width: 43px;
+}
